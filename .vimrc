@@ -40,8 +40,8 @@ Plug 'blueshirts/darcula'
 
 
 " For C/C++ programming
-Plug 'Valloric/YouCompleteMe'
-Plug 'justmao945/vim-clang'
+"Plug 'Valloric/YouCompleteMe'
+"Plug 'justmao945/vim-clang'
 
 
 "" Deoplete
