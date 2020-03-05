@@ -1,0 +1,22 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu, InactivityWatch, TestPlugin, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, MavenPluginURLHandler, LaunchpadBugURLHandler, LayoutManager
+  title_transmit_bg_color = "#0067de"
+[keybindings]
+  go_left = <Shift><Alt>Left
+  go_down = <Shift><Alt>Down
+  go_right = <Shift><Alt>Right
+  go_up = <Shift><Alt>Up
+[profiles]
+  [[default]]
+    scrollback_lines = 4000
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[3term]]
+[plugins]
